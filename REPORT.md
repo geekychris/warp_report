@@ -3,25 +3,25 @@
 ## Repository Overview
 | Repository | Description | Language | Classification |
 | ---------- | ----------- | -------- | -------------- |
-| asset_manager | Simple Service for managing assets and images of assets such as managing a retro computer inventory | Java | Backend Service |
-| countdown_clock | A simple large 7 segment style countdown clock implementation that keeps track of how long to the next presidential term | HTML | Web Application |
-| docker_utils | Docker compose sets for common services | - | DevOps Utilities |
-| docmngr | Document management system with major minor versioning and multiple content rendition support.  Rest API and simple vaadin flow UI | Java | Backend Database |
-| dumblinkspage | Simple HTML page rendering links from CSV usefull one page bookmark launcher| HTML | Web Utility |
-| eventbus | Event bus implementation similar to spread.  Low latency pub sub with no persistence allowing multiple clients to subscribe to message channels for things like cache flush.  Client in go and java | Java, go | Backend Service |
-| featureflags | Feature flag implementation including a DB backed persistence, memcache tier and client library to embed in your own apps | Java | Backend Service |
-| flutter_mac_recorder | Audio recording app for macOS using Flutter | Dart | Mobile/Desktop App |
-| flutter_map_ipad | Flutter map application for iPad that demonstrates google maps interaction| Dart | Mobile App |
-| gorocks | Rocks DB service written in go, including rudimentary replication | Go | Backend/Database |
-| homeassistant_java_client | Java client for Home Assistant API | Java | IoT Integration |
-| jrocksserver | Java-based RocksDB server with replication | Java | Database Server |
-| kafkadatagenerator | Tool to generate Kafka data from CSV  | Java | Data Pipeline |
-| localspeechtotext | Script for audio-to-text conversion, includes client to record audio and call service | Python | ML Utility |
-| questionare_server | Server for questionnaire application.  Create a set of questions both open ended and multi choice and collect answers per user| Java | Backend Service |
-| redis_intellij_plugin | IntelliJ plugin that provides an interactive redis client| Java | Developer Tool |
-| sentiment_service | Service for entity level sentiment analysis using bert| Python | ML Service |
-| simple_chat_ui | Simple chat UI implementation for use with chat services| JavaScript | Web Application |
-| wake_word | service that listens for speech, identifies a wake word and then captures what is spoken.  Including speech to text transcription| Python / Local ML Model | Embedded App |
+| asset_manager (git@github.com:geekychris/asset_manager.git) | Simple Service for managing assets and images of assets such as managing a retro computer inventory | Java | Backend Service |
+| countdown_clock (git@github.com:geekychris/countdown_clock.git) | A simple large 7 segment style countdown clock implementation that keeps track of how long to the next presidential term | HTML | Web Application |
+| docker_utils (git@github.com:geekychris/docker_utils.git) | Docker compose sets for common services | - | DevOps Utilities |
+| docmngr (git@github.com:geekychris/docmngr.git) | Document management system with major minor versioning and multiple content rendition support.  Rest API and simple vaadin flow UI | Java | Backend Database |
+| dumblinkspage (git@github.com:geekychris/dumblinkspage.git) | Simple HTML page rendering links from CSV usefull one page bookmark launcher| HTML | Web Utility |
+| eventbus (git@github.com:geekychris/eventbus.git) | Event bus implementation similar to spread.  Low latency pub sub with no persistence allowing multiple clients to subscribe to message channels for things like cache flush.  Client in go and java | Java, go | Backend Service |
+| featureflags (git@github.com:geekychris/featureflags.git) | Feature flag implementation including a DB backed persistence, memcache tier and client library to embed in your own apps | Java | Backend Service |
+| flutter_mac_recorder (git@github.com:geekychris/flutter_mac_recorder.git) | Audio recording app for macOS using Flutter | Dart | Mobile/Desktop App |
+| flutter_map_ipad (git@github.com:geekychris/flutter_map_ipad.git) | Flutter map application for iPad that demonstrates google maps interaction| Dart | Mobile App |
+| gorocks (git@github.com:geekychris/gorocks.git) | Rocks DB service written in go, including rudimentary replication | Go | Backend/Database |
+| homeassistant_java_client (git@github.com:geekychris/homeassistant_java_client.git) | Java client for Home Assistant API | Java | IoT Integration |
+| jrocksserver (git@github.com:geekychris/jrocksserver.git) | Java-based RocksDB server with replication | Java | Database Server |
+| kafkadatagenerator (git@github.com:geekychris/kafkadatagenerator.git) | Tool to generate Kafka data from CSV  | Java | Data Pipeline |
+| localspeechtotext (git@github.com:geekychris/localspeechtotext.git) | Script for audio-to-text conversion, includes client to record audio and call service | Python | ML Utility |
+| questionare_server (git@github.com:geekychris/questionare_server.git) | Server for questionnaire application.  Create a set of questions both open ended and multi choice and collect answers per user| Java | Backend Service |
+| redis_intellij_plugin (git@github.com:geekychris/redis_intellij_plugin.git) | IntelliJ plugin that provides an interactive redis client| Java | Developer Tool |
+| sentiment_service (git@github.com:geekychris/sentiment_service.git) | Service for entity level sentiment analysis using bert| Python | ML Service |
+| simple_chat_ui (git@github.com:geekychris/simple_chat_ui.git) | Simple chat UI implementation for use with chat services| JavaScript | Web Application |
+| wake_word (git@github.com:geekychris/wake_word.git) | service that listens for speech, identifies a wake word and then captures what is spoken.  Including speech to text transcription| Python / Local ML Model | Embedded App |
 ## Detailed Repository Summaries
 
 ### asset_manager
