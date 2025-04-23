@@ -3,27 +3,25 @@
 ## Repository Overview
 | Repository | Description | Language | Classification |
 | ---------- | ----------- | -------- | -------------- |
-| asset_manager | Repository for managing digital assets | Java | Backend Service |
-| countdown_clock | A simple countdown clock implementation | HTML | Web Application |
-| cpp_rocks_boost_cpp_examples | C++ examples using Boost libraries | Makefile | C++ Development |
+| asset_manager | Simple Service for managing assets and images of assets such as managing a retro computer inventory | Java | Backend Service |
+| countdown_clock | A simple large 7 segment style countdown clock implementation that keeps track of how long to the next presidential term | HTML | Web Application |
 | docker_utils | Docker compose sets for common services | - | DevOps Utilities |
-| dumblinkspage | Simple HTML page rendering links from CSV | HTML | Web Utility |
-| eventbus | Event bus implementation | Java | Backend Service |
-| featureflags | Feature flag implementation | Java | Backend Service |
+| docmngr | Document management system with major minor versioning and multiple content rendition support.  Rest API and simple vaadin flow UI | Java | Backend Database |
+| dumblinkspage | Simple HTML page rendering links from CSV usefull one page bookmark launcher| HTML | Web Utility |
+| eventbus | Event bus implementation similar to spread.  Low latency pub sub with no persistence allowing multiple clients to subscribe to message channels for things like cache flush.  Client in go and java | Java, go | Backend Service |
+| featureflags | Feature flag implementation including a DB backed persistence, memcache tier and client library to embed in your own apps | Java | Backend Service |
 | flutter_mac_recorder | Audio recording app for macOS using Flutter | Dart | Mobile/Desktop App |
-| flutter_map_ipad | Flutter map application for iPad | C++ | Mobile App |
-| gorocks | Go library interacting with RocksDB | Go | Backend/Database |
+| flutter_map_ipad | Flutter map application for iPad that demonstrates google maps interaction| Dart | Mobile App |
+| gorocks | Rocks DB service written in go, including rudimentary replication | Go | Backend/Database |
 | homeassistant_java_client | Java client for Home Assistant API | Java | IoT Integration |
 | jrocksserver | Java-based RocksDB server with replication | Java | Database Server |
-| kafkadatagenerator | Tool to generate Kafka data from CSV | Java | Data Pipeline |
-| localspeechtotext | Script for audio-to-text conversion | Python | ML Utility |
-| mediawiki | MediaWiki customization/implementation | HTML | Knowledge Base |
-| ollama_embedding | Java client for Ollama embedding API | Java | ML Integration |
-| questionare_server | Server for questionnaire application | Java | Backend Service |
-| redis_intellij_plugin | IntelliJ plugin for Redis | Java | Developer Tool |
-| sentiment_service | Service for sentiment analysis | Python | ML Service |
-| simple_chat_ui | Simple chat UI implementation | JavaScript | Web Application |
-
+| kafkadatagenerator | Tool to generate Kafka data from CSV  | Java | Data Pipeline |
+| localspeechtotext | Script for audio-to-text conversion, includes client to record audio and call service | Python | ML Utility |
+| questionare_server | Server for questionnaire application.  Create a set of questions both open ended and multi choice and collect answers per user| Java | Backend Service |
+| redis_intellij_plugin | IntelliJ plugin that provides an interactive redis client| Java | Developer Tool |
+| sentiment_service | Service for entity level sentiment analysis using bert| Python | ML Service |
+| simple_chat_ui | Simple chat UI implementation for use with chat services| JavaScript | Web Application |
+| wake_word | service that listens for speech, identifies a wake word and then captures what is spoken.  Including speech to text transcription| Python / Local ML Model | Embedded App |
 ## Detailed Repository Summaries
 
 ### asset_manager
@@ -193,18 +191,6 @@ A Python script that converts audio files to text using speech recognition, like
 5. Text processing
 
 **Classification:** ML Utility
-
-### mediawiki
-A customized implementation or theme for MediaWiki, the wiki software that powers Wikipedia and other wikis.
-
-**Technologies Used:**
-1. HTML (primary language)
-2. PHP (likely)
-3. CSS
-4. JavaScript
-5. MediaWiki framework
-
-**Classification:** Knowledge Base
 
 ### ollama_embedding
 A Java client for Ollama's embedding API, allowing for text embedding generation using local large language models.
